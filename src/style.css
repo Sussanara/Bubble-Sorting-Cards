@@ -14,6 +14,14 @@ body {
   position: relative;
 }
 
+.icono-top {
+  content: "♥", "♠", "♣", "♦";
+  position: absolute;
+  top: 15px;
+  left: 15px;
+  font-size: 75px;
+}
+
 .container {
   position: relative;
   display: flex;
@@ -21,14 +29,6 @@ body {
   align-items: center;
   margin: auto;
   width: 300px;
-}
-
-.icono-top {
-  content: "♥", "♠", "♣", "♦";
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  font-size: 75px;
 }
 
 .icono-bottom {
