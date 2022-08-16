@@ -107,9 +107,9 @@ function renderCardArrayBubble(array) {
   bubbleDiv.style.display = "flex";
   bubbleDiv.style.justifyContent = "space-evenly";
   document.body.appendChild(bubbleDiv);
-  let bubbleId = document.createElement("h1");
+  let bubbleId = document.createElement("h5");
   bubbleId.innerHTML = bubbleNumber;
-  bubbleId.style.paddingTop = "170px";
+  bubbleId.style.paddingTop = "150px";
   bubbleDiv.appendChild(bubbleId);
   for (let card of array) {
     const cardDiv = document.createElement("div");

@@ -23,20 +23,21 @@ body {
 
 .cardbody {
   background-color: white;
-  width: 150px;
+  width: 140px;
   height: 200px;
-  margin-top: 100px;
+  margin-top: 20px;
   border-radius: 10px;
-  padding: 20px;
-  padding-top: 15px;
+  padding: 10px;
+  padding-top: 10px;
 }
 
 #upperIcon {
   font-size: 40px;
+  margin: 2px;
 }
 
 #number {
-  font-size: 30px;
+  font-size: 35px;
   text-align: center;
 }
 
