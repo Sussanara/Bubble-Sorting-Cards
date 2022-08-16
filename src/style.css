@@ -1,50 +1,51 @@
+@import "~bootstrap/dist/css/bootstrap.min.css";
+
+.header {
+  padding-top: 10px;
+  align-content: center;
+  text-align: center;
+}
+
 body {
   background-color: green;
 }
 
-.card {
-  display: inline-block;
-  background: white;
-  margin: auto;
-  height: 400px;
-  width: 250px;
-  padding: 20px;
-  border-radius: 20px;
-  border: 1px solid black;
-  position: relative;
-}
-
-.icono-top {
-  content: "♥", "♠", "♣", "♦";
-  position: absolute;
-  top: 15px;
-  left: 15px;
-  font-size: 75px;
-}
-
-.container {
-  position: relative;
+#cardDisplay {
   display: flex;
-  justify-content: center;
-  align-items: center;
-  margin: auto;
-  width: 300px;
+  justify-content: space-evenly;
 }
 
-.icono-bottom {
-  content: "♥", "♠", "♣", "♦";
-  position: absolute;
-  bottom: 15px;
-  right: 15px;
-  font-size: 75px;
-  transform: rotate(-180deg);
-}
-.number {
-  display: inline-block;
-  position: absolute;
+.TitleBubble {
+  padding-top: 25px;
+  align-content: center;
   text-align: center;
-  padding: 100px;
-  padding-top: 140px;
-  font-size: 80px;
-  padding-right: 120px;
+}
+
+.cardbody {
+  background-color: white;
+  width: 150px;
+  height: 200px;
+  margin-top: 100px;
+  border-radius: 10px;
+  padding: 20px;
+  padding-top: 15px;
+}
+
+#upperIcon {
+  font-size: 40px;
+}
+
+#number {
+  font-size: 30px;
+  text-align: center;
+}
+
+#lowerIcon {
+  font-size: 40px;
+  transform: rotate(180deg);
+}
+
+#bubbleLog {
+  display: flex;
+  justify-content: space-evenly;
 }
